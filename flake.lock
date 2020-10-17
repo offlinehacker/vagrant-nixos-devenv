@@ -1,0 +1,80 @@
+{
+  "nodes": {
+    "home-manager": {
+      "locked": {
+        "lastModified": 1593676576,
+        "narHash": "sha256-i6eRKiPXZ0m7jtLGml37ENbURjPpRqueBCEkAjIdoaA=",
+        "owner": "xtruder",
+        "repo": "home-manager",
+        "rev": "6d1350fbc3b5bf8c655d2fc034e592ea8fec4c5f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "xtruder",
+        "ref": "nix-profiles-2-0",
+        "repo": "home-manager",
+        "type": "github"
+      }
+    },
+    "nix-profiles": {
+      "inputs": {
+        "home-manager": "home-manager",
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1593693709,
+        "narHash": "sha256-hP/id7AKuxx4gJLvMDlpTBc+BV/EHQs3Q1f9tmEDUNM=",
+        "owner": "xtruder",
+        "repo": "nix-profiles",
+        "rev": "f1424d1a407fbbf8efeb7ba635a045e0d64e684e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "xtruder",
+        "ref": "master",
+        "repo": "nix-profiles",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1593691001,
+        "narHash": "sha256-4fvze4pmJoub/+pkMKLyTrqMKgslLDP/hnUeF37JqrE=",
+        "owner": "xtruder",
+        "repo": "nixpkgs",
+        "rev": "22208988aa40589c091968c40d675da61f086b7c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "xtruder",
+        "ref": "xtruder-nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1593691001,
+        "narHash": "sha256-4fvze4pmJoub/+pkMKLyTrqMKgslLDP/hnUeF37JqrE=",
+        "owner": "xtruder",
+        "repo": "nixpkgs",
+        "rev": "22208988aa40589c091968c40d675da61f086b7c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "xtruder",
+        "ref": "xtruder-nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nix-profiles": "nix-profiles",
+        "nixpkgs": "nixpkgs_2"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
